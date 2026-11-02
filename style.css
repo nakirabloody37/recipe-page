@@ -59,6 +59,34 @@
 body {
   font-family: "Outfit", sans-serif;
   font-size: var(--text-4);
+  color: var(--Stone-600);
+  line-height: 1.5;
+}
+
+section:not(.recipe-ingredients) {
+  padding: 0 var(--space-10);
+}
+
+ul,
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+
+  list-style: none;
+}
+
+li {
+  display: flex;
+  gap: var(--space-5);
+  align-items: center;
+}
+
+ul li::before {
+  content: "\2022";
+  flex-shrink: 0;
+  font-weight: 600;
+  color: var(--Brown-800);
 }
 
 .heading-primary,
@@ -71,18 +99,36 @@ body {
   max-width: calc(375rem / 16);
 }
 
-section {
-  padding: 0 var(--space-10);
-}
-
 .recipe-image {
   width: 100%;
-  margin-bottom: var(--space-10);
+  margin-bottom: var(--space-8);
 }
 
 /*sec RECIPE-INTRO */
 
 .heading-primary {
   line-height: 1;
-  margin-bottom: var(--space-8);
+  color: var(--Stone-900);
+  margin-bottom: var(--space-6);
+}
+
+.recipe-intro .recipe-text {
+  margin-bottom: var(--space-10);
+}
+
+.prep-time {
+  background-color: var(--Rose-50);
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-10);
+}
+
+.prep-time__label {
+  color: var(--Rose-800);
+  font-size: var(--text-5);
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+}
+
+.prep-time__list {
+  margin-left: var(--space-5);
 }
