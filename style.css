@@ -128,7 +128,3 @@ ul li::before {
   font-weight: 600;
   margin-bottom: var(--space-3);
 }
-
-.prep-time__list {
-  margin-left: var(--space-5);
-}
