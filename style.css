@@ -131,7 +131,7 @@ ol li::before {
 .recipe-instructions::after {
   content: "";
   display: block;
-  margin: var(--space-10) 0;
+  margin: var(--space-8) 0;
   border-bottom: 1px solid var(--Stone-150);
 }
 
@@ -158,3 +158,5 @@ ol li::before {
   font-weight: 600;
   margin-bottom: var(--space-3);
 }
+
+/*sec RECIPE NUTRTION */
