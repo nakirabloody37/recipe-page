@@ -1,0 +1,67 @@
+/*sec DESIGN FRAMEWORK */
+
+:root {
+  /* sys COLORS */
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+
+  --Brown-800: hsl(14, 45%, 36%);
+
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+
+  /* sys Font Sizes */
+
+  --text-3: 0.75rem;
+  --text-3p2: 0.875rem;
+  --text-4: 1rem;
+  --text-4p2: 1.125rem;
+  --text-5: 1.25rem;
+  --text-6: 1.5rem;
+  --text-7p2: 1.875rem;
+  --text-9: 2.25rem;
+  --text-11: 2.75rem;
+  --text-13: 3.25rem;
+  --text-15p2: 3.875rem;
+  --text-18p2: 4.625rem;
+  --text-21p2: 5.375rem;
+  --text-24p2: 6.125rem;
+
+  /* sys WhiteSpace */
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+}
+
+/*sec GENERAL */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--text-4);
+}
+
+.heading-primary,
+.heading-secondary {
+  font-family: "Young Serif", sans-serif;
+}
