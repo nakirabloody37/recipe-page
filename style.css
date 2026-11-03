@@ -111,6 +111,10 @@ ol li::before {
   content: counter(step) ".";
 }
 
+strong {
+  font-weight: 600;
+}
+
 .heading-primary,
 .heading-secondary {
   font-family: "Young Serif", serif;
