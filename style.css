@@ -131,7 +131,7 @@ ol li::before {
 }
 
 .recipe-page {
-  max-width: calc(800rem / 16);
+  max-width: calc(700rem / 16);
   padding-bottom: var(--space-16);
   background-color: #fff;
 }
