@@ -121,11 +121,13 @@ ol li::before {
   line-height: 1;
   color: var(--Stone-900);
   margin-bottom: var(--space-6);
+  font-size: clamp(2rem, 1.8rem + 0.8vw, var(--text-11));
 }
 
 .heading-secondary {
   color: var(--Brown-800);
   margin-bottom: var(--space-4);
+  font-size: clamp(var(--text-6), 1.4rem + 0.4vw, var(--text-7p2));
 }
 
 .recipe-page {
