@@ -125,6 +125,7 @@ ol li::before {
 
 .recipe-page {
   max-width: calc(375rem / 16);
+  padding-bottom: var(--space-16);
 }
 
 .recipe-intro::after,
@@ -160,3 +161,26 @@ ol li::before {
 }
 
 /*sec RECIPE NUTRTION */
+.recipe-nutrition .recipe-text {
+  margin-bottom: var(--space-6);
+}
+
+.nutrition-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3) var(--space-10);
+}
+
+.nutrition-list dt {
+  justify-self: center;
+}
+
+.nutrition-list dd {
+  font-weight: 700;
+  color: var(--Brown-800);
+}
+
+.line-break {
+  border-bottom: 1px solid var(--Stone-150);
+  grid-column: 1 / span 2;
+}
