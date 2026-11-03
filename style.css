@@ -198,11 +198,11 @@ ol li::before {
   .recipe-page {
     padding: var(--space-8);
     margin: var(--space-8) 0;
-    border-radius: 15px;
+    border-radius: 19px;
   }
 
   .recipe-image {
-    border-radius: 11px;
+    border-radius: 13px;
   }
 
   section:not(.recipe-ingredients) {
