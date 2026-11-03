@@ -12,8 +12,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/nakirabloody37/recipe-page)
+- Live Site URL: [Live site](https://nakirabloody37.github.io/recipe-page/)
 
 ### Built with
 
